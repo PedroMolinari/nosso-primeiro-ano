@@ -139,9 +139,9 @@
 </section>
 
 <script>
-  // Etapa 1: o jogo ainda não existe. Nas próximas etapas este botão abrirá game/index.html
+  // O botão abre o jogo (jogo.html fica na mesma pasta deste arquivo)
   document.getElementById("jogar").addEventListener("click", function () {
-    document.getElementById("aviso").textContent = "O jogo ainda está sendo preparado…";
+    window.location.href = "jogo.html";
   });
 </script>
 </body>
